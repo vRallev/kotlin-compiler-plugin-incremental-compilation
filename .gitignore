@@ -1,0 +1,65 @@
+# Maven
+target
+pom.xml.*
+release.properties
+gen-external-apklibs
+
+# Gradle
+.gradle
+build/
+!/scripts/**/build
+local.properties
+gradlew.bat
+/reports/
+
+# Gradle Profiler
+profile-out*
+gradle-user-home
+
+# Bazel
+/bazel-*
+tools/bazel-dist
+.ijwb/
+.aswb/
+user.bazelrc
+
+# Eclipse
+.classpath
+.project
+.settings
+eclipsebin
+
+# IntelliJ IDEA
+.idea/
+!.idea/vcs.xml
+!.idea/runConfigurations/
+!.idea/scopes/
+*.iml
+*.ipl
+*.ipr
+*.iws
+classes/
+idea-classes/
+coverage-error.log
+.shelf/
+
+# Android
+gen
+bin
+!/scripts/**/bin
+project.properties
+out
+.cxx
+
+# Steve Jobs
+.DS_Store
+
+# Emacs
+*~
+.#*
+
+# Vim
+*.sw[op]
+
+# Ignore localization file
+locale-manifest.yml

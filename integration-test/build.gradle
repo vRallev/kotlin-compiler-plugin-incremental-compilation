@@ -1,0 +1,7 @@
+apply plugin: "org.jetbrains.kotlin.jvm"
+
+dependencies {
+  implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk8"
+
+  kotlinCompilerPluginClasspath project(':kotlin-plugin')
+}
